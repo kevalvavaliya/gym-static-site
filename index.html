@@ -1,0 +1,926 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+<link rel="stylesheet"
+	  type="text/css"
+	  href="owl.carousel.css"/>
+	  <link rel="stylesheet"
+	  type="text/css"
+	  href="custom_new.css"/>
+ <link rel="stylesheet"
+	  type="text/css"
+	  href="flexslider.css"/>
+ <link href="styl.css" rel="stylesheet">
+ <link rel="stylesheet" media="screen and (max-width: 1257px)" href="phone.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="jquery.js">
+</script>
+<script type="text/javascript" src="owl.carousel.min.js">
+</script>
+<script type="text/javascript" src="jquery.flexslider-min.js">
+</script>
+<script type="text/javascript" src="ParallaxBackground.js">
+</script>
+
+
+</head>
+<body>
+
+
+<!--HEADER-->
+	<div class="header">
+	
+		<div class="container-width">
+			<div class="header-top">
+				<div class="header-left">
+					<div class="language-outer">
+						<a href="#" class="headtext-language">English</a>
+						<div class="language-hover">
+							<ul>
+							<li> <a href="#"> English </a></li>
+							<li> <a href="#"> French </a></li>
+							<li> <a href="#"> English </a></li>
+							</ul>
+					    </div>
+					</div>
+						<div class="currency-outer">
+								<a href="#" class="headtext-currency">Inr</a>
+							<div class="currency-hover">
+								<ul>
+									<li> <a href="#"> Inr </a></li>
+									<li> <a href="#"> French </a></li>
+									<li> <a href="#"> Usd </a></li>
+								</ul>
+							</div>
+						</div>
+				</div>
+			
+			<div class="header-right">
+				<div class="like">
+					<a href="#"></a>
+				</div>
+				<div class="my-account">
+					<a href="#" id="acc"><button class="mylink" onclick='hide1()'></button></a>
+				</div>
+				<ul class="toggleList1" style="display: none;">
+					<li><a href="#" class="signin"><span>sign in </span></a></li>
+				</ul>
+					<div class="search-outer">
+						<div class="search-inner">
+							<form action="#" >
+								<input type="text" class="search-input" placeholder="search your catalog"/>
+								<input type="submit" class="search-button" value="search">
+							</form>
+						</div>
+					</div>
+			</div>
+		</div>
+		</div>
+	<!--Original Menu-->
+		<div class="container-width">
+			<div class="header-bottom">
+				
+				<div class="header-logo">
+					<a href="#"><img class="headlogo" src="gymlogo.jpg"/></a>
+				</div>
+				<div class="header-cart">
+					<div class="header-cart-inner">
+						<div class="cart-image"></div>
+					</div>
+
+							<div class="cart-content">
+								<p>Shopping cart</p>
+								<p>0.00</p>
+							</div>
+				</div>
+			</div>
+		</div>
+			<!--Hidden Menu-->
+			<div class="container-width">
+				<div class="hidden-menu">
+					<button class="menu-icon" onclick="menu()"><i class="icon">&#9776;</i></button>
+					<div class="header-logo">
+						<a href="#"><img class="headlogo" src="gymlogo.jpg"/></a>
+					</div>
+					<div class="header-cart">
+						<div class="header-cart-inner">
+							
+							<div class="hidden-search">
+								<div class="search-inner">
+									<form action="#" >
+										<input type="text" class="search-input" placeholder="search your catalog"/>
+										<a href="search.html"><input type="submit" class="search-button" value="search"></a>
+									</form>
+								</div>
+							</div>
+
+							<div class="cart-image"></div>
+							
+							<div class="my-account" ><a href="#"><button class="mylink" onclick='hide2()'></button></a></div>
+												
+							<ul class="toggleList2" style="display:none;">
+								<li><a href="#" class="signin"><span>sign in </span></a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+<!--MENU-->	
+	<div class="menu-outer">
+	<div class="menu-inner container-width">
+		<div class="bwomen menu-item">
+		<span>women</span>
+		<div class="hover-menu">
+			<div class="inner-title"><a href="#"><b>ARTISTIC EVENTS</b></a>
+			<ul class="hover-menu-inner" type="none">
+		
+				<a href="#"><li>Abdominal Bench</li></a>
+				<a href="#"><li>Barbells</li></a>
+				<a href="#"><li>Calf Machine</li></a>
+			</ul>
+			</div>
+			<div class="inner-title"><a href="#"><b>CABLES AND PULLEYES</b></a>
+			<ul class="hover-menu-inner" type="none">
+				
+				<a href="#"><li>Squat Rock</li></a>
+				<a href="#"><li>Evening Dress</li></a>
+				<a href="#"><li>Summer Dress</li></a>
+			</ul>
+			</div>
+			<div class="inner-title"><a href="#"><b>ADIPISCING ELITE</b></a>
+			<ul class="hover-menu-inner" type="none">
+				
+				<a href="#"><li>Body Building</li></a>
+				<a href="#"><li>Hammer Cuts</li></a>
+				<a href="#"><li>Subscipt quils</li></a>
+			</ul>
+			</div>
+			<img src="3-0_thumb.jpg"/>
+		</div>
+		</div>
+		<div class="bkids menu-item"><span>kids</span></div>
+		<div class="bhome menu-item"><span>home</span></div>
+		<div class="bpre menu-item"><span>premium</span></div>
+		<div class="bbrand menu-item"><span>brands</span></div>
+		<div class="bsport menu-item"><span>sport</span></div>
+	</div>
+</div>
+
+<!--menu hidden-->
+
+
+<div class="toggle-menu top-menu " style="display: none;">
+		<div class="top-menu" >
+		<ul class="list top-menu"  [data-depth="1"]>
+			<li class="category women"><a href="#"><span class="menuItem">Women</span><i class="fa fa-angle-down"></i></a></li>
+			<ul class="inner-list " [data-depth="2"]>
+				<li class="category inner-list1"><a href="#"><span class="menuItem">Artistic events</span><i class="fa fa-angle-down"></i></a></li>
+				
+				<ul class="focus-list1 " [data-depth="3"]>
+					<li class="category"><a href="#"><span class="menuItem">Abdominal Bench</span></a></li>
+					<li class="category"><a href="#"><span class="menuItem">Barbells</span></a></li>
+					<li class="category"><a href="#"><span class="menuItem">Calf Machine</span></a></li>
+				</ul>
+			</ul>
+			<ul class="inner-list " [data-depth="2"]>
+				<li class="category inner-list2"><a href="#"><span class="menuItem">Cables and Pulleyes</span><i class="fa fa-angle-down"></i></a></li>
+				<ul class="focus-list2 " [data-depth="3"]>
+					<li class="category"><a href="#"><span class="menuItem">Squat Rock</span></a></li>
+					<li class="category"><a href="#"><span class="menuItem">Evening Dress</span></a></li>
+					<li class="category"><a href="#"><span class="menuItem">Summer Dress</span></a></li>
+				</ul>
+			</ul>
+			<ul class="inner-list " [data-depth="2"]>
+				<li class="category inner-list3"><a href="#"><span class="menuItem">Adipiscing Elite</span><i class="fa fa-angle-down"></i></a></li>
+				<ul class="focus-list3 " [data-depth="3"]>
+						
+					<li class="category"><a href="#"><span class="menuItem">Body Building</span></a></li>
+					<li class="category"><a href="#"><span class="menuItem">Hammer Cuts</span></a></li>
+					<li class="category"><a href="#"><span class="menuItem">Subscipt quils</span></a></li>
+				</ul>
+			</ul>
+			<li class="category"><a href="#"><span class="menuItem">Kids</span></a></li>
+			<li class="category"><a href="#"><span class="menuItem">Home</span></a></li>
+			<li class="category"><a href="#"><span class="menuItem">Premium</span></a></li>
+			<li class="category"><a href="#"><span class="menuItem">Brands</span></a></li>
+			<li class="category"><a href="#"><span class="menuItem">Sports</span></a></li>
+		</ul>
+		</div>
+
+		<div class="down-menu ">
+				<div class="category down-list1"  [data-depth="1"]>
+					<a href="#" class="hidden-currency">Currency:</a>
+					<select class="d-ul">
+						<option > <a href="#"> INR ₹</a></option>
+						<option > <a href="#"> USD $</a></option>
+					</select>
+				</div>
+
+				<div class="category down-list2"  [data-depth="1"]>
+					<a href="#" class="hidden-language">English:</a>		
+						<select class="d-ul">
+							<option> <a href="#"> English</a></option>
+							<option> <a href="#"> French</a></option>
+						</select>
+				</div>
+
+
+		</div>
+
+
+</div>
+
+
+<!--MAIN SLIDER-->
+<div id="main-slider">
+	<div class="main owl-carousel " id="ms">
+	   <div class="item">
+			<img src="sample-1.jpg">
+		</div>
+	     <div class="item">
+			 <img src="sample-2.jpg">
+		 </div>
+		 <div class="item">
+			<img src="sample-3.jpg">
+		 </div>
+	</div>	
+</div>	
+	 
+
+<!--MIDDLE IMAGES-->
+<div class="midimages">
+	<div class="container-width">
+		<div class="upper"> 
+		<div class="banner1"> 
+			<a href="#"><img src="banner1.jpg"/></a>
+			<div class="midhover">
+			</div>
+		</div>
+	<div class="lower">
+		<div class="banner2">
+			<a href="#"><img class="sideImg1"src="banner2.jpg"/></a>
+			<div class="midhover">
+			</div>
+		</div>
+		<div class="banner3">
+			<a href="#"><img class="sideImg2" src="banner3.jpg"/></a>
+			<div class="midhover">
+		</div>
+		</div>
+	</div>
+	
+   </div>
+</div>
+</div>
+
+<!--FEATUTED PRODUCTS-->
+<div class="featured-outer">
+	<div class="container-width">
+		<div class="feature">Featured Products</div>
+			<div id="mn">
+				<div style="float:right;"class="main owl-carousel" id="feature-product">
+						<div class="item">
+							<img class="oi" src="blouse.jpg">
+							<div class="phover"></div>
+							<p>Blouse</p>
+							<div class="price">
+								<span>₹30.36</span>
+							</div>
+						</div>
+						<div class="item">
+							<img class="oi" src="printed-chiffon-dress.jpg">
+								<p>Printed Chiffton Dress</p>
+									<div class="price">
+										<strike>₹23.06</strike>
+										<span class="discount">-20%</span>
+										<span>₹18.45</span>
+									</div>
+						</div>
+						<div class="item">
+							<img class="oi" src="printed-dress(1).jpg">
+							<p>Printed Dress</p>
+							<div class="price">
+								<span>₹30.36</span>
+							</div>
+						</div>
+						<div class="item">
+							<img class="oi" src="printed-dress.jpg">
+							<p>Printed Dress</p>
+							<div class="price">
+								<span>₹30.36</span>
+							</div>
+						</div>
+						<div class="item">
+							<img class="oi" src="faded-short-sleeves-tshirt.jpg">
+							<p>Faded Short Sleeves T Shirt</p>
+							<div class="price">
+								<span>₹30.36</span>
+							</div>
+						</div>
+						<div class="item">
+							<img class="oi" src="printed-summer-dress.jpg">
+							<p>Printed Summer Dress</p>
+							<div class="price">
+								<strike>₹34.31</strike>
+								<span class="discount">-5%</span>
+								<span>₹32.60</span>
+							</div>
+						</div>		
+						<div class="item">
+							<img class="oi" src="printed-summer-dress(1).jpg">
+							<p>Printed Summer Dress</p>
+							<div class="price">
+								<span>₹30.36</span>
+							</div>
+						</div> 
+						<div class="item">
+							<img class="oi" src="t-shirt.jpg">
+							<p>T-shirt</p>
+							<div class="price">
+								<span>₹30.36</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--parallax-->
+	
+<div class="custom-parallaxblock" data-source-url="parallax.jpg">
+<script type="text/javascript">
+	$(document).ready(function(){
+		var isMobile= /Android|webOS|iphone|ipad|ipod|blackberry/i.test(navigator.userAgent);
+		if(!isMobile){
+			if($(".custom-parallaxblock").length){
+					$(".custom-parallaxblock").ParallaxBackground({invert:false});
+				}
+		}else{
+				$(".custom-parallaxblock").ParallaxBackground({invert:true});
+		}
+		
+	});
+
+</script>
+<div class="parallax-text container-width">
+	<div class="parallax-text1 para-text">
+		Your Special Savings
+	</div>
+	<div class="parallax-text2 para-text">
+		Sports & Fitness
+	</div>
+	<div class="parallax-text3 para-text" >
+		Find the weight training equipment you need to get your best workout.
+	</div>
+	<div class="parallax-text4 ">
+		<a href="#">Shop Now</a>
+	</div>
+</div>
+</div>
+
+
+<!--SPECIAL PRODUCTS-->	
+	<div class="container-width">
+		<div class="special-outer">
+			<div class="special-header-text">
+				<p>Special Products</p>
+			</div>
+			<div id="mn" class="special-inner">
+				<div class="main owl-carousel" id="special-product">
+					<div class="item">
+						<img class="oi" src="printed-chiffon-dress.jpg">
+							<p class="special-product-desc">Printed Chiffton Dress</p>
+								<div class="price">
+									<strike>₹23.06</strike>
+									<span class="discount">-20%</span>
+									<span>₹18.45</span>
+								</div>
+					</div>
+					<div class="item">
+						<img class="oi" src="printed-summer-dress.jpg">
+							<p class="special-product-desc">Printed Summer Dress</p>
+							<div class="price">
+								<strike>₹34.31</strike>
+								<span class="discount">-5%</span>
+								<span>₹32.60</span>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				
+<!--CLIENT SAYS-->
+	<div class="client">
+		<div class="client-text">
+			<h1>What Our Client Say's</h1>
+		</div>
+		<div class="container-width">
+			<div id="cs" class="client-slider">
+				<div class="main owl-carousel " id="client">
+				
+					<div class="item">
+						<div class="client-image">
+							<img src="testimonial_img1.jpg">
+						</div>
+						<div class="client-desc">
+							<p>make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.It was make</p>
+							<p>a type specimen book.It has survived not only five centuries.</p>
+							<span>Web Censtoriya - ( Sr.Service Manager )</span>
+							
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="client-image">
+							<img src="testimonial_img2.jpg">
+						</div>
+						<div class="client-desc">
+							<p>make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+							<span>Web Censtoriya - ( Sr.Service Manager )</span>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="client-image">
+							<img src="testimonial_img3.jpg">
+						</div>
+						<div class="client-desc">
+							<p>make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was make </p>
+							<p>a type specimen book. It has survived not only five centuries.</p>
+							<span>Web Censtoriya - ( Sr.Service Manager )</span>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+<!--CUSTOMER-->
+	<div class="container-width">
+		<div class="customer">
+			<div class="shipping-outer">
+				<div class="shipping">
+				</div>
+				<div class="subtitle">
+					<p>FREE SHIPPING</p>
+					<span>Shipping in world for  over $99</span>
+				</div>
+			</div>
+			<div class="gift-outer">
+				<div class="gift">
+				</div>
+				<div class="subtitle">
+					<p>SPECIAL GIFT</p>
+					<span>Shipping in world for  over $99</span>
+				</div>
+			</div>
+			<div class="money-outer">
+				<div class="money">
+				</div>
+				<div class="subtitle">
+					<p>MONEY BACK</p>
+					<span>Shipping in world for  over $99</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--LOGO SLIDER-->
+<div id="ls">
+		<div class="container-width">
+			<div class="main owl-carousel " id="logo-slider">
+				<div class="item">
+					<img src="1.jpg">
+				</div>
+				<div class="item">
+					<img src="2.jpg">
+				</div>
+				<div class="item">
+					<img src="3.jpg">
+				</div>
+				<div class="item">
+					<img src="4.jpg">
+				</div>
+				<div class="item">
+					<img src="5.jpg">
+				</div>
+			</div>	
+		</div>
+</div>
+
+
+
+<!--FOOTER-->
+<footer class="footer-outer">
+	<div class="footer-top">
+		<div class="container-width">
+			<div class="footer-top-inner">
+				<div class="footer-top-left">
+					<div class="footer-top-img"></div>
+					<div class="footer-containt">
+					<p class="subscribe">Subscribe now to get $20 off on any product</p>
+					<small class="inner-subscribe">editors now use Lorem ipsum as model text, and a search</small>
+				</div>
+				</div>
+				<div class="footer-top-right">
+					<form class="footer-set" action="#">
+						<input class="subscribe-input" type="text" placeholder="Your Email"/>
+						<input class="subscribe-button" type="submit" value="subscribe"/>
+						<button class="okbtn" type="submit" value="OK">OK</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class= "footer-bottom">
+		<div class="container-width">
+			<div class="footer-bottom-inner">
+				<div class="footer-part1 part">
+					<div class="part-inner">
+							<img src="footer_logo.png"/>
+						<div class="desc">
+							<p>Address: No 40 Bari Street 133/ Newyork City,ny United state</p>
+							<p>2140253335/0123456789</p>
+							<p>demo@prestashop.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer-part2 part">
+					<div class="part-inner">
+						<div class="title">Products </div>
+							<ul> 
+								<li><a href="#" title="abc">Delivery </a></li>
+								<li><a href="#">Legal Notice</a></li>
+								<li><a href="#">Prices Drop </a></li>
+								<li><a href="#">New Products </a></li>
+								<li><a href="#">Best Sales </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-part3 part">
+						<div class="part-inner">
+							<div class="title">Our Company </div>
+								<ul> 
+									<li><a href="#" title="abc">Delivery </a></li>
+									<li><a href="#">Legal Notice</a></li>
+									<li><a href="#">About Us </a></li>
+									<li><a href="#">Contact Us </a></li>
+									<li><a href="#">Sitemap </a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-part4 part">
+							<div class="part-inner">
+								<div class="title">My Acccount </div>
+									<ul> 
+										<li><a href="#">Your Order</a></li>
+										<li><a href="#">Your Wishlist </a></li>
+										<li><a href="#">Payment Return </a></li>
+										<li><a href="#">Wheel shine</a></li>
+										<li><a href="#">Your Account </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--Hidden List Of Footer-->
+						<div class="hidden-part">
+							
+							<div class="f-list1 footer-list"><a href="#"><span class="foot">Gym </a><i class="fa fa-angle-down"></i></span></div>
+
+							<ul class="hidden-part1 footer-list">
+							<li><div class="footer-part1 part">
+									<div class="part-inner">
+										<img src="footer_logo.png"/>
+									<div class="desc">
+										<p>Address: No 40 Bari Street 133/ Newyork City,ny United state</p>
+										<p>2140253335/0123456789</p>
+										<p>demo@prestashop.com</p>
+									</div>
+								</div>
+							</div>
+							</li>
+							</ul>
+							
+							<div class="f-list2 footer-list"><a href="#"><span class="foot">Products </a><i class="fa fa-angle-down"></i></span></div>
+							
+							<ul class="hidden-part2 ">
+								<li type="none" class="part2-list footer-list"><a href="#"><span class="foot"><h4>Delivery</h4></span></a></li>
+								<li type="none" class="part2-list footer-list"><a href="#"><span class="foot"><h4>Legal Notice</h4></span></a></li>
+								<li type="none" class="part2-list footer-list"><a href="#"><span class="foot"><h4>Price Drops</h4></span></a></li>
+								<li type="none" class="part2-list footer-list"><a href="#"><span class="foot"><h4>New Products</h4></span></a></li>
+								<li type="none" class="part2-list footer-list"><a href="#"><span class="foot"><h4>Best Sales</h4></span></a></li>
+							</ul>
+						
+							<div class="f-list3 footer-list"><a href="#"><span class="foot">Our Company </a><i class="fa fa-angle-down"></i></span></div>
+							
+							<ul class="hidden-part3 ">
+								<li type="none" class="part3-list footer-list"><a href="#"><span class="foot"><h4>Delivery</h4></span></a></li>
+								<li type="none" class="part3-list footer-list"><a href="#"><span class="foot"><h4>Legal Notice</h4></span></a></li>
+								<li type="none" class="part3-list footer-list"><a href="#"><span class="foot"><h4>About Us</h4></span></a></li>
+								<li type="none" class="part3-list footer-list"><a href="#"><span class="foot"><h4>Contact Us</h4></span></a></li>
+								<li type="none" class="part3-list footer-list"><a href="#"><span class="foot"><h4>Sitemap</h4></span></a></li>
+							</ul>
+
+							<div class="f-list4 footer-list"><a href="#"><span class="foot">My Account </a><i class="fa fa-angle-down"></i></span></div>
+							
+							<ul class="hidden-part4 ">
+								<li type="none" class="part4-list footer-list"><a href="#"><span class="foot"><h4>Your Order</h4></span></a></li>
+								<li type="none" class="part4-list footer-list"><a href="#"><span class="foot"><h4>Your Wishlist</h4></span></a></li>
+								<li type="none" class="part4-list footer-list"><a href="#"><span class="foot"><h4>Payment return</h4></span></a></li>
+								<li type="none" class="part4-list footer-list"><a href="#"><span class="foot"><h4>Wheel Shine</h4></span></a></li>
+								<li type="none" class="part4-list footer-list"><a href="#"><span class="foot"><h4>Your Account</h4></span></a></li>
+							</ul>
+
+						</div>
+
+
+
+
+						<div class="second-bottom">
+							<div class="second-part1">
+								<div class="inner-part-1 common">
+									<a href="#">Home</a>
+								</div>
+								<div class="inner-part-2 common">
+									<a href="#">About</a>
+								</div>
+								<div class="inner-part-3 common">
+									<a href="#">Work</a>
+								</div>
+								<div class="inner-part-4 common">
+									<a href="#">Home</a>
+								</div>
+								<div class="inner-part-5 common">
+									<a href="#">Team</a>
+								</div>
+								<div class="inner-part-6 common">
+									<a href="#">Blog</a>
+								</div>
+								<div class="inner-part-7 common">
+									<a href="#">Contact</a>
+								</div>
+							</div>
+							
+							<div class="second-part2 ">
+								<div class="right-inner-part-1 same">
+								<img src="payment5.png"/>
+								</div>
+								<div class="right-inner-part-2 same">
+								<img src="payment4.png"/>
+								</div> 
+								<div class="right-inner-part-3 same">
+								<img src="payment3.png"/>
+								</div> 
+								<div class="right-inner-part-4 same">
+								<img src="payment2.png"/>
+								</div>
+								<div class="right-inner-part-5 same">
+								<img src="payment1.png"/>
+								</div> 
+							</div>
+						</div>
+
+					<div class="third-bottom">
+						© 2020 - Ecommerce software by PrestaShop™
+					</div> 
+		</div>
+	</div>
+		
+</footer>
+<a href="#" class="back-to-top fa fa-angle-Up" style="display: none;"></a>
+	
+<script>
+	function hide1(){
+		console.log('clicked 1');
+		
+		var para=document.getElementsByClassName('toggleList1');
+		if(para[0].style.display==='none')
+		{	
+			para[0].style.display='block';
+		}
+		else
+		{
+			para[0].style.display='none';
+		}
+	}
+	function hide2(){
+		console.log('clicked 2');
+		
+		var para=document.getElementsByClassName('toggleList2');
+		if(para[0].style.display==='none')
+		{	
+			para[0].style.display='block';
+		}
+		else
+		{
+			para[0].style.display='none';
+		}
+	}
+	function menu(){
+		console.log("menu clicked");
+		var menu=document.getElementsByClassName('top-menu');
+		if(menu[0].style.display==='none')
+		{
+			menu[0].style.display='block';
+		}
+		else
+		{
+			menu[0].style.display='none';
+		}
+	}
+	$(document).ready(function(){
+		$('.women').click(function(){
+			$('.inner-list').slideToggle();
+		});
+	});
+	$(document).ready(function(){
+		$('.inner-list1').click(function(){
+			$('.focus-list1').slideToggle();
+		});
+	});
+	$(document).ready(function(){
+		$('.inner-list2').click(function(){
+			$('.focus-list2').slideToggle();
+		});
+	});
+	$(document).ready(function(){
+		$('.inner-list3').click(function(){
+			$('.focus-list3').slideToggle();
+		});
+	});
+
+	$(document).ready(function(){
+		$('.f-list1').click(function(){
+			$('.hidden-part1').slideToggle();
+		});
+	});
+
+	$(document).ready(function(){
+		$('.f-list2').click(function(){
+			$('.hidden-part2').slideToggle();
+		});
+	});
+
+	$(document).ready(function(){
+		$('.f-list3').click(function(){
+			$('.hidden-part3').slideToggle();
+		});
+	});
+
+	$(document).ready(function(){
+		$('.f-list4').click(function(){
+			$('.hidden-part4').slideToggle();
+		});
+	});
+
+	$(document).ready(function() {
+    var offset = 500;
+    var duration = 1500;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= offset) {
+            $('.back-to-top').fadeIn();
+        } else {
+            $('.back-to-top').fadeOut();
+        }
+    });
+    
+    $('.back-to-top').click(function(event) {
+        $('html, body').animate({scrollTop: 0}, duration);
+      
+    })
+});
+
+
+
+
+
+
+</script>
+
+
+2<script type="text/javascript">
+
+ 	$(document).ready(function(){
+	$("#ms").owlCarousel({
+		items:1,
+		mergefit:true,
+		autoplay: true,
+		autoWidth:false,
+		fluidSpeed:1,
+		mergefit:true,
+		nav:true,
+		loop:true
+		});
+	$("#feature-product").owlCarousel({
+		items:4,
+		autoplay: true,
+	
+		nav:true,
+		loop:true,
+    	responsive:{
+        0:{
+            items:2,
+            nav:true
+			
+        },
+		500:{
+			items:2,
+			nav:false
+		},
+        650:{
+            items:3,
+            nav:false
+        },
+
+        1200:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    	}
+		});
+	$("#special-product").owlCarousel({
+		items:4,
+		autoplay: true,
+		
+		
+		nav:true,
+		loop:true,
+		responsive:{
+		0:{
+            items:2,
+            nav:true,
+		
+        },
+		500:{
+			items:2,
+			nav:false
+			
+		},
+        650:{
+            items:3,
+            nav:false
+        },
+
+        1200:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    	}
+		});
+	$("#client").owlCarousel({
+		items:1,
+		autoplay: false,
+		nav:true,
+		loop:true
+		});
+	$("#logo-slider").owlCarousel({
+		items:5,
+		autoplay: true,
+		nav:true,
+		loop:true,
+	
+		responsive:{
+		0:{
+            items:2,
+            nav:true,
+		
+        },
+		600:{
+			items:3,
+			nav:false
+			
+		},
+        768:{
+            items:4,
+            nav:false
+        },
+
+        1200:{
+            items:5,
+            nav:true,
+            loop:true
+        }
+    	}
+		});
+
+	});
+
+	
+
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+ 
+
+    .closebutton {
+        display: block; 
+        text-align: center;
+        padding: 5px 15px;
+        cursor: pointer;
+    }
+
+    #ttcookie-outer p {
+        margin: 0px;
+        padding: 0px;
+        color: #fff;
+    }
+
+
+    #tt-cookiecontent {
+        
+                
+    }
+    #ttcookie-outer {
+        width: 100%; 
+        position: fixed;  
+        bottom:0px; 
+        box-shadow: 0 0 3px 0 rgba(255,255,255,0.4); 
+        background: rgba(0,0,0,0.5); 
+        z-index: 9999; 
+        font-size: 14px; 
+        line-height: 1.4; 
+        left: 0px; 
+        text-align:center; 
+        color:#fff; 
+        padding: 12px 0px;
+     
+    }
+    #tt-cookiecontent {
+        position:relative; 
+        margin:auto; 
+        width:100%; 
+        display:block;
+    }
+    .cookie-inner {
+  width: 100%;
+}
+.cookie-inner1,
+.cookie-inner2 {
+
+  display: inline-block;
+}
